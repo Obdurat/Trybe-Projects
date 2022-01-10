@@ -1,0 +1,24 @@
+main {
+  background: rgb(47, 193, 192);
+  background: linear-gradient(
+    141deg,
+    rgba(47, 193, 192, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+#success-container {
+  bottom: -20vh;
+  transition: 2s ease-in-out;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#inner-box1 {
+  background: rgb(47, 193, 192);
+  background: linear-gradient(
+    141deg,
+    rgba(47, 193, 192, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );  
+}
