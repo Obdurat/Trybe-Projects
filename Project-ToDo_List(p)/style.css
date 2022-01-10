@@ -1,0 +1,94 @@
+* {
+    margin: .5% 0;    
+}
+
+.selected {
+    background-color: rgb(128, 128, 128);
+}
+
+.completed {
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+button {
+    display: flex;
+    border-radius: 10px;
+    min-width: 10px;
+    max-width: 40px;
+    justify-content: center;       
+}
+
+button img {      
+    width: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    font-family: 'Vujahday Script', cursive, sans-serif;
+    font-size: 2em;
+    justify-content: center;   
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    /* Stack Overflow 
+    https://stackoverflow.com/questions/11323813/how-to-outline-text-in-html-css */
+}
+
+p {    
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    color: white;    
+}
+
+#btn-container {
+    display: flex;   
+    justify-content: center;
+    margin-top: 2%;        
+}
+
+body {
+    background-color: grey;    
+}
+
+main {
+    background-color: white;
+    padding: 3%;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 10%);    
+    border-radius: 5%;
+    display: flexbox;
+    justify-content: center;
+    min-height: 200px;
+}    
+
+input {
+    display: block;
+    margin: 0 auto;
+    border: solid black 2px;
+    border-radius: 10px;    
+}
+
+#lista-tarefas {        
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 5%;
+    list-style: inside;
+    padding-left: 0;               
+}
+
+#lista-tarefas li {
+    font-size: 20px;
+    border-radius: 25px;    
+}

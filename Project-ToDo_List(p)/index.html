@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/gif" href="Icons/calendar-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <em>
+                Minha Lista de Tarefas
+            </em>
+        </h1>
+    </header>
+    <p id="funcionamento">
+        <em> Clique duas vezes em um item para marcá-lo como completo <br> Mova o mouse acima dos botões para contexto.</em>
+    </p>
+    <div id="btn-container">
+        <button id="criar-tarefa"><img src="Icons/adicionar-arquivo.png" alt="Criar Tarefa"
+                title="Criar tarefa"></button>
+        <button id="apaga-tudo"><img src="Icons/circulo-cruzado.png" alt="Apagar todas as Tarefas"
+                title="Apagar todas as tarefas"></button>
+        <button id="remover-finalizados"><img src="Icons/caixa-de-selecao.png" alt="Remover Tarefas Finalizadas"
+                title="Remover tarefas finalizadas"></button>
+        <button id="salvar-tarefas"><img src="Icons/adicionar-pasta.png" alt="Salvar" title="Salvar"></button>
+        <button id="mover-cima"><img src="Icons/angulo-circulo-para-cima.png" alt="Mover para cima"
+                title="Mover selecionado para cima"></button>
+        <button id="mover-baixo"><img src="Icons/angulo-circulo-para-baixo.png" alt="Mover para baixo"
+                title="Mover selecionado para baixo"></button>
+        <button id="remover-selecionado"><img src="Icons/excluir-arquivo.png" alt="Apagar Selecionado"
+                title="Apagar selecionado"></button>
+    </div>
+    <main>
+        <input type="text" id="texto-tarefa">
+        <ol id="lista-tarefas">
+        </ol>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

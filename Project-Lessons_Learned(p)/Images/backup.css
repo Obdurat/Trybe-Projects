@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+/*Botões*/
+.github {
+    background-color: lightgreen;
+    width: 200px;
+    position: fixed;
+    left: -150px;
+    height:60px;
+    border-radius: 5%;
+    transition: .5s;
+    top: 300px;
+}
+.linkedin {
+    background-color: lightblue;
+    width: 200px;
+    position: fixed;
+    left: -150px;
+    border-radius: 5%;
+    top: 365px;
+    height: 50px;
+    transition: .5s;
+}
+.github img {
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 2%;
+}
+.github a {
+    position: absolute;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 35px;
+    padding: 5% 9%
+}
+.github:hover {
+    left: 0;
+}
+.linkedin img {
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 0.1%;
+}
+.linkedin a {
+    position: absolute;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 35px;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.linkedin:hover {
+    left: 0;
+}
+/* Header */
+#header {
+    border:solid brown 2px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+}
+#trybe-name {
+    border: solid green 2px;
+    width: 800px;
+    left: 750px;
+    top: 2%;
+    display: flex;
+}
+#trybe-logo {
+    border: solid yellow 2px;
+    width: 215px;
+    left: 450px;top: 2%;
+    transition: .2s;
+    }
+#trybe-logo:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+/*Body*/
+#Photo {
+    border-radius: 25%;
+   }
+#Photo-Container {
+    border: solid cyan 2px;
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;
+    padding: 2% 20%;
+    }
