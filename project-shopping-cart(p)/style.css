@@ -280,13 +280,14 @@ body {
   font-size: small;
   height: 25px;
   overflow: hidden;
-  transition: 0.5s;  
+  transition: 0.5s;
+  cursor: pointer;  
 }
 
-.categories-container ul li {
-  /* display: none;   */
+.categories-container ul li {  
   margin: 10px 15px;
   transform-origin: left;
+  cursor: pointer;
 }
 
 @keyframes cart_item {

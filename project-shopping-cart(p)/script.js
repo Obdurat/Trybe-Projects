@@ -128,6 +128,7 @@ async function categoryChildren(element, id) {
   const { children_categories: children } = results;
   children.forEach(({ name }) => {
     element.appendChild(createCustomElement('li', `${id}-subcategory`, name));
+    
   });
 }
 
